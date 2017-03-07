@@ -11,17 +11,50 @@
   </head>
 
   <body>
-    <!-- BEGIN NAVBAR
+    <!-- BEGIN NAVBAR - Fixed navbar
     ================================================== -->
-    <!-- Fixed navbar -->
     <a name="home"></a>
     <nav id="navbar" class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#home">CursosWeb</a>
-          <a class="navbar-brand" href="https://github.com/CursosWeb">GitHub</a>
+        <div class="nav navbar-nav bar-fixed-top">
+          <!--menu-->
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown">
+              <img src="./images/menu.png" alt="" title="" height="15" width="20"/>
+            </a>
+            <ul class="dropdown-menu" style="padding: 15px;min-width: 250px;">
+              <li>
+                <a href="#programas">
+                <button class="btn btn-orange btn-block">Programas</button>
+                </a>
+                <a href="#codigo">
+                <button class="btn btn-orange btn-block">Código</button>
+                </a>
+                <a href="#transparencias">
+                <button class="btn btn-orange btn-block">Transparencias</button>
+                </a>
+                <a href="#recursos">
+                <button class="btn btn-orange btn-block">Recursos</button>
+                </a>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="#alumnos">
+                  <button class="btn btn-orange btn-block">Alumnos</button>
+                </a>
+                <a href="#profesores">
+                  <button class="btn btn-orange btn-block">Profesores</button>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!--/menu-->
         </div>
         <div class="collapse navbar-collapse">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#home">CursosWeb</a>
+            <a class="navbar-brand" href="https://github.com/CursosWeb">GitHub</a>
+          </div>
           <div class="nav navbar-nav navbar-right">
             <!-- LOGO URJC-->
               <a href="http://www.urjc.es">
@@ -29,40 +62,9 @@
             <!-- LOGO GSYC-->
               <a href="https://gsyc.urjc.es/">
               <img src="./images/logoGSYC.gif" alt="" title="" height="50" width="100" /></a>
-              <!--menu-->
-              <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown">
-                  <img src="./images/menu.png" alt="" title="" height="20" width="25"/>
-                </a>
-                <ul class="dropdown-menu" style="padding: 15px;min-width: 250px;">
-                  <li>
-                    <a href="#programas">
-                    <button class="btn btn-orange btn-block">Programas</button>
-                    </a>
-                    <a href="#codigo">
-                    <button class="btn btn-orange btn-block">Código</button>
-                    </a>
-                    <a href="#transparencias">
-                    <button class="btn btn-orange btn-block">Transparencias</button>
-                    </a>
-                    <a href="#recursos">
-                    <button class="btn btn-orange btn-block">Recursos</button>
-                    </a>
-                  </li>
-                  <li class="divider"></li>
-                  <li>
-                    <a href="#alumnos">
-                      <button class="btn btn-orange btn-block">Alumnos</button>
-                    </a>
-                    <a href="#profesores">
-                      <button class="btn btn-orange btn-block">Profesores</button>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <!--/menu-->
           </div> <!--/.right-->
         </div> <!--/.collapse-->
+
       </div><!--/.nav-container -->
     </nav><!--/Fixed navbar -->
     <!-- END NAVBAR
